@@ -1,6 +1,12 @@
 <template>
   <section id="writing" class="mb-16">
-    <h2 class="text-2xl font-bold mb-8 font-proxima">Latest Writing</h2>
+    <h2 class="text-2xl font-bold mb-8 font-proxima">Writing</h2>
+   <p class="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
+     Lately, I've been pushing myself to write — my opinions, lessons from school and work (and life?),
+      and takes on the internet's curiosities. Here’s my attempt to make sense of the 
+      million thoughts swirling in my head.
+    </p>
+   
     <div class="space-y-8 max-w-2xl">
       <article 
         v-for="post in posts" 
@@ -33,20 +39,30 @@ export default {
       posts: [
         {
           id: 1,
-          title: "Understanding Design Systems",
-          excerpt: "An exploration of how design systems can streamline the development process...",
-          date: "March 1, 2024",
-          platform: "Medium",
-          externalLink: "https://medium.com/your-article",
+          title: "Product Teardown | Yoodli",
+          excerpt: "An AI communication coach",
+          date: "June 12, 2024",
+          platform: "Substack",
+          externalLink: "https://gopikak.substack.com/p/can-ai-help-you-improve-your-next?r=3z51pd",
           isExternal: true
         },
         {
           id: 2,
-          title: "Local Markdown Post",
-          excerpt: "This post is written in markdown and hosted locally...",
-          date: "March 2, 2024",
-          content: "path-to-markdown-file.md",
-          isExternal: false
+          title: "Who owns AI-generated creativity",
+          excerpt: "Gen AI has enabled more and more people to create, but what is the deal with ownership of AI generated content",
+          date: "Feb 21, 2024",
+          platform: "Medium",
+          externalLink: "https://medium.com/@gopika1697/gen-ai-who-is-the-rightful-owner-pt-1-58dec12be52d",
+          isExternal: true
+        },
+        {
+          id: 3,
+          title: "Network Effects : Explosive growth of social platforms",
+          excerpt: "The value of a social media platform comes from its network, and this can be explained by Network Effects",
+          date: "Feb 5, 2024",
+          platform: "Medium",
+          externalLink: "https://medium.com/@gopika1697/network-effects-explosive-growth-of-platforms-829b2490c2c7",
+          isExternal: true
         }
       ]
     }

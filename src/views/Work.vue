@@ -1,6 +1,10 @@
 <template>
   <section id="work" class="mb-16">
-    <h2 class="text-2xl font-bold mb-8 font-proxima">Featured Projects</h2>
+    <h2 class="text-2xl font-bold mb-8 font-proxima">Work</h2>
+    <p class="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
+    I have been lucky to explore and experiment with my career - dabbling into coding, product management,
+ and design. Here are some of my side projects
+    </p>
     <div class="space-y-16">
       <div 
         v-for="project in projects" 

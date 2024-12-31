@@ -8,9 +8,7 @@
   class="w-48 h-48 object-cover rounded-lg mb-6"
 />
       <p class="text-lg text-gray-600 dark:text-gray-400 mb-4">
-        A passionate designer and developer focused on creating beautiful, functional 
-        digital experiences. With expertise in both design and development, I bridge 
-        the gap between aesthetics and functionality.
+        This is a longer version of my story. Work in progress
       </p>
     </div>
   </section>
