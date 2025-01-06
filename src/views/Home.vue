@@ -11,31 +11,29 @@
         key="heading"
         class="text-4xl font-bitter text-black mb-8 leading-relaxed transition-item"
       >
-        Hi👋 , I'm Gopika, a product person based in Berkeley.
+        Hi👋 I'm Gopika, a Product Manager based in San Francisco.
       </h1>
       
       <h4 
         key="subheading"
         class="text-xl text-gray-600 italic mb-12 font-proxima transition-item"
       >
-        Passionate about building user-centric solutions to solve real problems
+        I am passionate about exploring human-technology relationship and
+        its impact on the way we live, work, and connect.
       </h4>
 
       <!-- Professional Background -->
       <div key="background" class="space-y-4 text-lg mb-12 transition-item">
         <p class="flex items-start">
           <span class="mr-2">•</span>
-          Engineer-turned-PM, with four years of experience building B2C Personal Safety apps (@SiriusXM) and Enterprise Network Monitoring tools (@HPE) 👩‍💻
+         Currently, I am working on creating driver safety solution at SiriusXM Connect 🚙. 
+         Previously, I was at HPE as a Software Engineer - building Network Monitoring tools.
         
         </p>
         <p class="flex items-start">
           <span class="mr-2">•</span>
-          Graduated with a Master's in Information Management from UC Berkeley 
-          <span class="ml-2">🐻</span>
-        </p>
-        <p class="flex items-start">
-          <span class="mr-2">•</span>
-          My favorite work is in the intersection of AI, Cloud, and UX
+          I graduated from UC Berkeley where I studied Information Systems, AI & Entrepreneurship 🐻. 
+          <span class="ml-2"</span>
         </p>
       </div>
 
@@ -46,9 +44,9 @@
         <p class="flex items-start">
           <span class="mr-2">•</span>
           <span>
-            I enjoy building 0-to-1 products —taking abstract ideas to prototypes. 
+            I enjoy building 0-to-1 products — taking abstract ideas to prototypes. Here are some
             <router-link to="/work" class="text-blue-600 hover:underline inline-flex">
-              Here are some of the side projects
+             side projects 
             </router-link> 
             I have been working on.
           </span>
@@ -56,22 +54,15 @@
         <p class="flex items-start">
           <span class="mr-2">•</span>
           <span>
-            I care deeply about how technology integrates into our lives and the influence it has. 
-            Even in small ways, my goal is to make a positive difference by building responsible and thoughtful tech.
-          </span>
-        </p>
-        <p class="flex items-start">
-          <span class="mr-2">•</span>
-          <span>When not working, I box 🥊, workout 🤸‍♀️, hike 🏔.</span>
-        </p>
-        <p class="flex items-start">
-          <span class="mr-2">•</span>
-          <span>
-            This is my small corner on the internet, I have recently started writing down my thoughts and everything I learn on the way. 
+            Along the way, I write my thoughts and everything I learn  
             <router-link to="/writing" class="text-blue-600 hover:underline inline-flex">
-              Checkout here.
+               here.
             </router-link>
           </span>
+        </p>
+         <p class="flex items-start">
+          <span class="mr-2">•</span>
+          <span>When not working, I box 🥊, play badminton, workout 🤸‍♀️, hike 🏔.</span>
         </p>
       </div>
     </div>
