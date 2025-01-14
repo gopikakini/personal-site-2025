@@ -21,11 +21,7 @@ const routes = [
     name: 'ProjectDetail',
     component: ProjectDetail
   },
-  {
-    path: '/about',
-    name: 'About',
-    component: About
-  },
+
   {
     path: '/writing',
     name: 'Writing',

@@ -7,13 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'proxima': ['Proxima Nova', 'sans-serif'],
-        'bitter': ['Bitter', 'serif'],
+        'playfair': ['"Playfair Display"', 'serif'],
+        'lato': ['Lato', 'sans-serif'],
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [],
   darkMode: 'class'
 }

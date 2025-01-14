@@ -1,35 +1,18 @@
 <template>
   <div :class="['min-h-screen flex justify-center', isDarkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900']">
     <div class="flex relative w-[70%] mt-32">
-      <!-- Sidebar -->
-      <nav class="w-48 fixed">
-        <img 
-          src="/public/images/profile/avatar.jpg" 
-          alt="Profile" 
-          class="w-24 h-24 rounded-full mb-6 object-cover"
-        />
-        
-        <div class="mb-8">
-          <router-link to="/" class="text-2xl font-bold font-proxima">Gopika</router-link>
-        </div>
-        
-        <ul class="space-y-4 mb-8 font-proxima">
-          <li><router-link to="/work" class="hover:text-gray-600">Work</router-link></li>
-          <li><router-link to="/about" class="hover:text-gray-600">About</router-link></li>
-          <li><router-link to="/writing" class="hover:text-gray-600">Writing</router-link></li>
-        </ul>
+   
+    <!-- Top Navigation -->
+    <nav class="fixed top-0 right-0 py-6 px-8">
+      <ul class="flex space-x-8">
+        <li><router-link to="/" class="font-lato text-gray-800 hover:text-blue-600">Home</router-link></li>
+        <li><router-link to="/work" class="font-lato text-gray-800 hover:text-blue-600">Work</router-link></li>
+        <li><router-link to="/writing" class="font-lato text-gray-800 hover:text-blue-600">Writing</router-link></li>
+      </ul>
+    </nav>
 
-        <!-- Updated Toggle Button -->
-        <button 
-          @click="toggleDarkMode"
-          class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-        >
-          <span class="text-xl">
-            {{ isDarkMode ? '☀️' : '🌙' }}
-          </span>
-        </button>
-      </nav>
 
+       
       <!-- Main Content -->
       <main class="ml-56 flex-1">
         <router-view></router-view>
